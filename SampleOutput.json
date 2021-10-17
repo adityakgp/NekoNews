@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 4,
+    "articles": [
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "https://www.engadget.com/about/editors/daniel-cooper",
+            "title": "HTC’s Vive Flow is a $499 lightweight VR headset built for entertainment and wellness | Engadget",
+            "description": "The Vive Flow splits the difference between a VR headset and a personal cinema..",
+            "url": "https://www.engadget.com/htc-flow-lightweight-vr-headset-150014421.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-10/7adf6780-2c2b-11ec-affe-342a18f49884",
+            "publishedAt": "2021-10-14T15:07:28.0858904Z",
+            "content": "HTC is today launching a lightweight headset designed to split the difference between a standalone VR headset and a personal cinema. The HTC Vive Flow is a pair of glasses weighing just 189 grams (6.… [+3972 chars]"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Nicole Clark",
+            "title": "Live-action System Shock series is in development",
+            "description": "A System Shock live-action TV series is in the works. It is being developed by Nightdive Studios and gaming-centric entertainment streaming platform Binge, which is set to launch in 2022.",
+            "url": "https://www.polygon.com/22725139/system-shock-live-action-tv-show-binge-nightdive-bioshock",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/DvdYBY3mzrwMucopOuNuqz1mdqE=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22924960/system_shock.jpg",
+            "publishedAt": "2021-10-13T21:48:01Z",
+            "content": "The games-centric entertainment streaming platform Binge has added a live-action System Shock series to its programming docket, according to Deadline. \r\nRetro games publisher Nightdive Studios curren… [+1329 chars]"
+        },
+        {
+            "source": {
+                "id": "the-washington-times",
+                "name": "The Washington Times"
+            },
+            "author": "The Washington Times http://www.washingtontimes.com",
+            "title": "Latest Quizzes",
+            "description": "Take a break from the hard news of the day and enjoy a quiz on entertainment, sports, history and politics only from The Washington Times.",
+            "url": "https://www.washingtontimes.com/quiz/",
+            "urlToImage": null,
+            "publishedAt": "2021-02-10T03:52:37.2719772Z",
+            "content": "Featured Quizzes\r\nAttention all William Shakespeare experts. Pinpoint the prose's origin plucked from one of his many famous plays in this multiple-choice challenge.\r\n Shares \r\nName these legendary c… [+32652 chars]"
+        },
+        {
+            "source": {
+                "id": "the-lad-bible",
+                "name": "The Lad Bible"
+            },
+            "author": null,
+            "title": "Breaking Entertainment News - Celebrity & Showbiz News | LADbible",
+            "description": "The latest entertainment news in the UK and worldwide on LADbible. We cover breaking celebrity news and showbiz stories. Check out our exclusives.",
+            "url": "https://www.theladbible.com/entertainment",
+            "urlToImage": null,
+            "publishedAt": "2020-06-18T14:07:50.1068606Z",
+            "content": "Netflix's new fantasy show, Cursed, will launch on 17 July"
+        }
+    ]
+}
