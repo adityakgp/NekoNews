@@ -4,6 +4,7 @@ import React, {useState} from 'react'
 import NavBar from './Components/NavBar';
 import News from './Components/News';
 import LoadingBar from 'react-top-loading-bar'
+import About from './Components/About';
 
 import {
   BrowserRouter as Router,
@@ -29,6 +30,7 @@ const App =()=>{
         // onLoaderFinished={() => setProgress(0)}
       />
         <Switch>
+          <Route exact path="/about"><About/></Route>
           <Route exact path="/"><News setProgress={ setProgress} apiKey={ apiKey} key='general' pageSize={ pageSize} country={ country} category={'general'}/></Route>
           <Route exact path="/business"><News setProgress={ setProgress} apiKey={ apiKey} key='business' pageSize={ pageSize} country={ country} category={'business'}/></Route>
           <Route exact path="/entertainment"><News setProgress={ setProgress} apiKey={ apiKey} key='entertainment' pageSize={ pageSize} country={ country} category={'entertainment'}/></Route>

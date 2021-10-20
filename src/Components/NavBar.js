@@ -10,7 +10,7 @@ const Navbar =()=> {
     
         return (
             <div>
-                <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                <nav className="navbar fixed-top navbar-expand-lg bg-dark">
   <div className="container-fluid">
   <Link className="navbar-brand" to="/">
       <img src="https://www.pngkey.com/png/full/441-4412849_twitch-emotes-png.png" alt="" width="50" height="44"/>
@@ -24,7 +24,12 @@ const Navbar =()=> {
         <li className="nav-item">
           <Link className="nav-link active" aria-current="page" to="/">Home</Link>
         </li>
-        <li className="nav-item">
+        <li className="nav-item dropdown">
+          <Link className="nav-link dropdown-toggle" to="/" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            News Category
+          </Link>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li className="nav-item">
           <Link className="nav-link" to="/business">Business</Link>
         </li>
         <li className="nav-item">
@@ -42,10 +47,15 @@ const Navbar =()=> {
         <li className="nav-item">
           <Link className="nav-link" to="/technology">Technology</Link>
         </li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link active" aria-current="page" to="/about">About</Link>
+        </li>
         </ul>
         <form className="d-flex">
         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button className="btn btn-outline-success" type="submit">Search</button>
+        <button className="btn btn-outline-primary" type="submit">Search</button>
       </form>
     </div>
   </div>
