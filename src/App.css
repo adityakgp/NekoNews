@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -37,5 +41,6 @@
   }
 }
 /* #body{
-    background-color:  #1a1a1a;
+  background-image: url("https://media.istockphoto.com/photos/turquoise-red-and-beige-striped-background-picture-id1214314679?s=612x612");
+
 } */

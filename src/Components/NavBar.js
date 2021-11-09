@@ -1,5 +1,5 @@
 import React from 'react'
-
+// import './NavBar.css';
 
 import {
   Link
@@ -10,7 +10,7 @@ const Navbar =()=> {
     
         return (
             <div>
-                <nav className="navbar fixed-top navbar-expand-lg bg-dark">
+                <nav className="navbar fixed-top navbar-expand-lg " style={{backgroundColor : 'white'}}>
   <div className="container-fluid">
   <Link className="navbar-brand" to="/">
       <img src="https://www.pngkey.com/png/full/441-4412849_twitch-emotes-png.png" alt="" width="50" height="44"/>
